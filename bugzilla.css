@@ -1,0 +1,154 @@
+@namespace "http://www.w3.org/1999/xhtml";
+
+@-moz-document url(https://seu.sdm.de/pu/futurabug/bugzillaplus/),url-prefix(https://seu.sdm.de/pu/futurabug/bugzillaplus/) {
+	
+	body { 
+  background-color:#a6b5a1;
+	border:0;
+	margin:0;
+	padding:0;
+	color:#9ebd77
+}
+
+#titles {
+	background-color:#9ebd77
+}
+
+#title {
+	color:#000
+}
+
+#header .links {
+	border-bottom-left-radius:0;
+	border-bottom-right-radius:0
+}
+
+#header .links,#footer {
+	background-color:#c1d69c;
+	color:#626670;
+	border:0
+}
+
+/* unvisited link */
+a:link {
+	color:#626670
+}
+
+/* visited link */
+a:visited {
+	color:#626670
+}
+
+/* mouse over link */
+a:hover {
+	color:#626670
+}
+
+/* selected link */
+a:active {
+	color:#626670
+}
+
+/* unvisited link */
+ul.links a:link {
+	color:#626670
+}
+
+#header a,#footer a {
+	color:#626670;
+	text-decoration:none
+}
+
+input#find_top {
+	width:100px;
+	height:19px;
+	background:#2b303b;
+	border:2px;
+	color:#e8d4c7
+}
+
+textarea {
+	width:auto;
+	padding:.1em;
+	overflow:auto;
+	border:1px solid
+}
+
+.bz_alias_short_desc_container {
+	background-color:#c4d6a3;
+	border-bottom-left-radius:0;
+	border-bottom-right-radius:0;
+	border-top-left-radius:0;
+	border-top-right-radius:0
+}
+
+select {
+	border:1px solid
+}
+
+#attachment_table th,.bz_attach_footer,.bz_time_tracking_table th {
+	background-color:#c4d6a3;
+	color:#000
+}
+
+.text_input,.bz_userfield,#keyword_container {
+	width:auto;
+	max-width:45em;
+	border:1px solid
+}
+
+body,input {
+	font-family:Verdana,sans-serif;
+	font-size:small;
+	border:1px solid
+}
+
+input#find_bottom {
+	width:100px;
+	height:19px;
+	background:#2b303b;
+	border:2px;
+	color:#e8d4c7
+}
+
+input#commit_top {
+	height:19px;
+	background:#2b303b;
+	border:2px;
+	color:#e8d4c7
+}
+
+input#commit {
+	height:19px;
+	background:#2b303b;
+	border:2px;
+	color:#e8d4c7
+}
+
+#message {
+	display:none
+}
+
+#logo {
+	display:none
+}
+
+#page-index {
+	max-width:100%
+}
+
+#bugzilla-body {
+	background:none repeat scroll 0 0 #EDF3E2;
+	border:0
+}
+
+.bz_comment {
+	background-color:#E4EDD4;
+	border:0
+}
+
+.bz_comment.bz_private {
+	background-color:#DBE7C5;
+	border:0
+}
+}
